@@ -3,7 +3,7 @@
 # Output: [0,1]
 # Output: Because nums[0] + nums[1] == 9, we return [0, 1].
 
-def twosum(num,target):
+def twoSum(num,target):
     if len(num) < 2:
         pass
     r = []
@@ -13,4 +13,4 @@ def twosum(num,target):
             return [num.index(comp),i]
         r.append(num[i])
 num=[2,3,4,6,1]
-print(twosum(num,5))
+print(twoSum(num,5))
