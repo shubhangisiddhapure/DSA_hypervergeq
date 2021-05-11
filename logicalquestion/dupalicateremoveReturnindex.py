@@ -1,18 +1,15 @@
 
 
 # all dupalicate in sorted array and return index
-def allduplicate(arr,m):
-    i=0
-    while i<m-1:
-        if arr[i]!=arr[i+1]:
-            i+=1
-        else :
-            if arr[i-1]!=arr[i]:
-                arr.remove.(arr[i])
-                return len(arr)
-                i+=1
-            else:
-                i+=1
-num=int (input("enter the size of array "))
-arr=[int(input(" enter the elements of array in ascending manner")) for each in range(num)]    
-allduplicate(arr,num)
+def allduplicate(nums):
+   number= 1
+   if len(nums)==0:
+        return 0
+   for i in range(1,len(nums)):
+        if nums[i] != nums[i-1]:
+            nums[number] = nums[i]
+            number +=1
+   return number
+list1=[0,0,1,1,1,2,2,3,3,4]
+
+print(allduplicate(list1))
