@@ -12,4 +12,4 @@ def allduplicate(arr,m):
                 i+=1
 num=int (input("enter the size of array "))
 arr=[int(input(" enter the elements of array in ascending manner")) for each in range(num)]    
-allduplicate(arr,num
+allduplicate(arr,num)
